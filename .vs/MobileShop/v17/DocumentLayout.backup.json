@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\MobileShop\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|c:\\users\\user\\source\\repos\\mobileshop\\mobileshop\\sampleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\sampleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,16 +32,12 @@
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SampleView.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\SampleView.cs",
-              "RelativeDocumentMoniker": "MobileShop\\SampleView.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\SampleView.cs [Design]*",
-              "RelativeToolTip": "MobileShop\\SampleView.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T04:13:25.355Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
