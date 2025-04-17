@@ -50,9 +50,7 @@ namespace MobileShop.View
 
         public void btnAdd_Click(object sender, EventArgs e)
         {
-            FormUserAdd userAdd = new FormUserAdd();
-            userAdd.Show();
-            this.Hide();
+            MainClass.BlurBackground(new FormUserAdd());
             LoadData();
         }
 
@@ -64,17 +62,29 @@ namespace MobileShop.View
         public void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             int id = Convert.ToInt32(guna2DataGridView1.CurrentRow.Cells[1].ToString());
-            MainClass.BlurBackground(new FormUserView() { });
+            MainClass.BlurBackground(new FormUserAdd());
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
-            LoadData();
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnExit_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            frmMain dashboard = new frmMain();
+            dashboard.Show();
+            this.Close();
         }
     }
 }

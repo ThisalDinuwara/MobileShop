@@ -50,5 +50,12 @@ namespace MobileShop
         {
             Application.Exit();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            frmMain dashboard = new frmMain();
+            dashboard.Show();
+            this.Close();
+        }
     }
 }
