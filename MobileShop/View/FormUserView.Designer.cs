@@ -32,6 +32,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnMin = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.btnMax = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.btnExit = new Guna.UI2.WinForms.Guna2ControlBox();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnAdd = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,6 +47,9 @@
             // 
             this.guna2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2Panel1.Controls.Add(this.btnMin);
+            this.guna2Panel1.Controls.Add(this.btnMax);
+            this.guna2Panel1.Controls.Add(this.btnExit);
             this.guna2Panel1.Controls.Add(this.txtSearch);
             this.guna2Panel1.Controls.Add(this.btnAdd);
             this.guna2Panel1.Controls.Add(this.label1);
@@ -52,6 +58,44 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(953, 173);
             this.guna2Panel1.TabIndex = 0;
+            // 
+            // btnMin
+            // 
+            this.btnMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMin.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnMin.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.btnMin.FillColor = System.Drawing.Color.Transparent;
+            this.btnMin.IconColor = System.Drawing.Color.White;
+            this.btnMin.Location = new System.Drawing.Point(813, 3);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(42, 39);
+            this.btnMin.TabIndex = 20;
+            // 
+            // btnMax
+            // 
+            this.btnMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMax.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnMax.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.btnMax.FillColor = System.Drawing.Color.Transparent;
+            this.btnMax.IconColor = System.Drawing.Color.White;
+            this.btnMax.Location = new System.Drawing.Point(861, 3);
+            this.btnMax.Name = "btnMax";
+            this.btnMax.Size = new System.Drawing.Size(42, 39);
+            this.btnMax.TabIndex = 18;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnExit.BorderColor = System.Drawing.Color.Brown;
+            this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnExit.ForeColor = System.Drawing.Color.DarkRed;
+            this.btnExit.IconColor = System.Drawing.Color.White;
+            this.btnExit.Location = new System.Drawing.Point(909, 3);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(40, 37);
+            this.btnExit.TabIndex = 19;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // txtSearch
             // 
@@ -67,6 +111,7 @@
             this.txtSearch.Location = new System.Drawing.Point(46, 73);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSearch.Name = "txtSearch";
+            this.txtSearch.PasswordChar = '\0';
             this.txtSearch.PlaceholderText = "Search Here";
             this.txtSearch.SelectedText = "";
             this.txtSearch.Size = new System.Drawing.Size(326, 41);
@@ -187,5 +232,8 @@
         private Guna.UI2.WinForms.Guna2Button btnAdd;
         public Guna.UI2.WinForms.Guna2TextBox txtSearch;
         public Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2ControlBox btnMin;
+        private Guna.UI2.WinForms.Guna2ControlBox btnMax;
+        private Guna.UI2.WinForms.Guna2ControlBox btnExit;
     }
 }

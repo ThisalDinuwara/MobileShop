@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MobileShop.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace MobileShop.View
 {
     public partial class FormUserView : Sample
     {
+        private int editID;
+
         public FormUserView()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void FormUserViem_Load(object sender, EventArgs e)
@@ -46,7 +50,9 @@ namespace MobileShop.View
 
         public void btnAdd_Click(object sender, EventArgs e)
         {
-            MainClass.BlurBackground(new FormUserView());
+            FormUserAdd userAdd = new FormUserAdd();
+            userAdd.Show();
+            this.Hide();
             LoadData();
         }
 
@@ -63,7 +69,12 @@ namespace MobileShop.View
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
+            LoadData();
+        }
 
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

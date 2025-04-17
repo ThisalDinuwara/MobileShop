@@ -79,7 +79,7 @@ namespace MobileShop
         {
             // Serial no in gridview
 
-            gv.CellFormatting += new DataGridViewCellFormattingEventHandler(gv_llFormatting);
+            gv.CellFormatting += new DataGridViewCellFormattingEventHandler(gv_CellFormatting);
             try
             {
                 SqlCommand cmd = new SqlCommand(qry, con);
@@ -96,9 +96,9 @@ namespace MobileShop
             }
         }
 
-        private static void gv_llFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        private static void Gv_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            throw new NotImplementedException();
+            
         }
 
         private static void gv_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
@@ -138,6 +138,27 @@ namespace MobileShop
                 }
             }
         }
+
+        //Blur background
+        public static void BlurBackground(Form Model)
+        {
+            Form Background = new Form();
+            using (Model)
+            {
+                Background.StartPosition = FormStartPosition.Manual;
+                Background.FormBorderStyle = FormBorderStyle.None;
+                Background.Opacity = 0.5;
+                Background.BackColor = Color.Black;
+                Background.Size = frmMain.Instance.Size;
+                Background.Location = frmMain.Instance.Location;
+                Background.ShowInTaskbar = false;
+                Background.Show();
+                Model.Owner = Background;
+                Model.ShowDialog(Background);
+                Background.Dispose();
+            }
+        }
+
         // ComboBox Fill
         public static void CBFill(string qry, ComboBox cb)
         {

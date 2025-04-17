@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace MobileShop.View
 {
-    public partial class frmSetting : Sample
+    public partial class frmSettingView : Sample
     {
-        public frmSetting()
+        public frmSettingView()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void AddControls(Form F)
@@ -33,7 +35,9 @@ namespace MobileShop.View
 
         private void btnUser_Click(object sender, EventArgs e)
         {
-            AddControls(new UserView());
+            FormUserView userView = new FormUserView();
+            userView.Show();
+            this.Close();
         }
 
         private void btnBrand_Click(object sender, EventArgs e)
@@ -44,6 +48,18 @@ namespace MobileShop.View
         private void btnColor_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            frmMain dashboard = new frmMain();
+            dashboard.Show();
+            this.Close();
         }
     }
 }

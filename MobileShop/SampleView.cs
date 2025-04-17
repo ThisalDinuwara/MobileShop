@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MobileShop.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +25,15 @@ namespace MobileShop
 
         public virtual void btnAdd_Click(object sender, EventArgs e)
         {
+            FormUserAdd user = new FormUserAdd();
+            user.Show();
+            this.Hide();
+            LoadData();
+        }
 
+        private void LoadData()
+        {
+            throw new NotImplementedException();
         }
 
         public virtual void guna2TextBox1_TextChanged(object sender, EventArgs e)
@@ -35,6 +44,11 @@ namespace MobileShop
         public virtual void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

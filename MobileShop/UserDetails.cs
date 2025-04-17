@@ -35,7 +35,7 @@ namespace MobileShop
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Dashboard dashboard = new Dashboard();
+            frmMain dashboard = new frmMain();
             dashboard.Show();
             this.Close();
         }
@@ -55,5 +55,9 @@ namespace MobileShop
             this.WindowState = FormWindowState.Minimized;
         }
 
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -66,7 +66,7 @@ namespace MobileShop
                 MessageBox.Show("Login successful!", "Success",
                                MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                Dashboard dashboard = new Dashboard();
+                frmMain dashboard = new frmMain();
                 dashboard.Show();
                 this.Hide();
 

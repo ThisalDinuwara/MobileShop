@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\MobileShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|c:\\users\\user\\source\\repos\\mobileshop\\mobileshop\\view\\formuserview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\view\\formuserview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|c:\\users\\user\\source\\repos\\mobileshop\\mobileshop\\view\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\view\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|c:\\users\\user\\source\\repos\\mobileshop\\mobileshop\\model\\formuseradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\model\\formuseradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|c:\\users\\user\\source\\repos\\mobileshop\\mobileshop\\model\\formuseradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\model\\formuseradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|c:\\users\\user\\source\\repos\\mobileshop\\mobileshop\\view\\frmsettingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\view\\frmsettingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|C:\\Users\\User\\source\\repos\\MobileShop\\mobileshop\\view\\frmsettingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\view\\frmsettingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|c:\\users\\user\\source\\repos\\mobileshop\\mobileshop\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|C:\\Users\\User\\source\\repos\\MobileShop\\mobileshop\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7204AD51-7B9C-4B89-A7EF-461A41F35934}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\View\\UserView.cs",
+              "RelativeDocumentMoniker": "MobileShop\\View\\UserView.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\View\\UserView.cs [Design]",
+              "RelativeToolTip": "MobileShop\\View\\UserView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:31:58.663Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormUserView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\View\\FormUserView.cs",
+              "RelativeDocumentMoniker": "MobileShop\\View\\FormUserView.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\View\\FormUserView.cs [Design]",
+              "RelativeToolTip": "MobileShop\\View\\FormUserView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:31:55.997Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormUserAdd.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\Model\\FormUserAdd.cs",
+              "RelativeDocumentMoniker": "MobileShop\\Model\\FormUserAdd.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\Model\\FormUserAdd.cs",
+              "RelativeToolTip": "MobileShop\\Model\\FormUserAdd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:31:44.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormUserAdd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\Model\\FormUserAdd.cs",
+              "RelativeDocumentMoniker": "MobileShop\\Model\\FormUserAdd.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\Model\\FormUserAdd.cs [Design]",
+              "RelativeToolTip": "MobileShop\\Model\\FormUserAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:31:42.118Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmSettingView.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\View\\frmSettingView.cs",
+              "RelativeDocumentMoniker": "MobileShop\\View\\frmSettingView.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\View\\frmSettingView.cs",
+              "RelativeToolTip": "MobileShop\\View\\frmSettingView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:31:30.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmSettingView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\View\\frmSettingView.cs",
+              "RelativeDocumentMoniker": "MobileShop\\View\\frmSettingView.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\View\\frmSettingView.cs [Design]",
+              "RelativeToolTip": "MobileShop\\View\\frmSettingView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:24:55.872Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\frmMain.cs",
+              "RelativeDocumentMoniker": "MobileShop\\frmMain.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\frmMain.cs [Design]",
+              "RelativeToolTip": "MobileShop\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:23:25.696Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\frmMain.cs",
+              "RelativeDocumentMoniker": "MobileShop\\frmMain.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MobileShop\\MobileShop\\frmMain.cs",
+              "RelativeToolTip": "MobileShop\\frmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T02:12:07.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

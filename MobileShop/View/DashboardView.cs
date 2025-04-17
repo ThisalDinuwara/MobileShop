@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace MobileShop.View
 {
-    public partial class UserView : Sample
+    public partial class DashboardView : Sample
     {
-        public UserView()
+        public DashboardView()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
 
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

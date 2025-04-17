@@ -1,4 +1,5 @@
-﻿using MobileShop.View;
+﻿using MobileShop.Model;
+using MobileShop.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,19 +12,21 @@ using System.Windows.Forms;
 
 namespace MobileShop
 {
-    public partial class Dashboard : Form
+    public partial class frmMain : Form
     {
-        public Dashboard()
+        public frmMain()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
         }
-        static Dashboard _obj;
+        static frmMain _obj;
 
-        public static Dashboard Instance
+        public static frmMain Instance
         {
-            get { if (_obj == null) { _obj = new Dashboard(); } return _obj; }
+            get { if (_obj == null) { _obj = new frmMain(); } return _obj; }
         }
+
+        public object CenterPanel { get; private set; }
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
@@ -59,14 +62,14 @@ namespace MobileShop
 
         private void btnUser_Click(object sender, EventArgs e)
         {
-            UserDetails user = new UserDetails();
+            FormUserAdd user = new FormUserAdd();
             user.Show();
             this.Hide();
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
         {
-            UserDetails user = new UserDetails();
+            FormUserAdd user = new FormUserAdd();
             user.Show();
             this.Hide();
         }
@@ -85,16 +88,14 @@ namespace MobileShop
 
         private void AddControls(Form F)
         {
-            panel1.Controls.Clear();
-            F.TopLevel = false;
-            F.Dock = DockStyle.Fill;
-            panel1.Controls.Add(F);
-            F.Show();
+            
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
-            AddControls(new Dashboard());
+            DashboardView dashboard = new DashboardView();
+            dashboard.Show();
+            this.Hide();
         }
 
         private void btnMax_Click(object sender, EventArgs e)
@@ -111,7 +112,19 @@ namespace MobileShop
 
         private void btnSetting_Click(object sender, EventArgs e)
         {
-            AddControls(new frmSetting());
+            frmSettingView settingView = new frmSettingView();
+            settingView.Show();
+            this.Hide();
+        }
+
+        private void CenterPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
